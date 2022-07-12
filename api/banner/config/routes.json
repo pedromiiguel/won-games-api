@@ -2,56 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/games",
-      "handler": "game.find",
+      "path": "/banners",
+      "handler": "banner.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/games/count",
-      "handler": "game.count",
+      "path": "/banners/count",
+      "handler": "banner.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/games/:id",
-      "handler": "game.findOne",
+      "path": "/banners/:id",
+      "handler": "banner.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/games",
-      "handler": "game.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/games/populate",
-      "handler": "game.populate",
+      "path": "/banners",
+      "handler": "banner.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/games/:id",
-      "handler": "game.update",
+      "path": "/banners/:id",
+      "handler": "banner.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/games/:id",
-      "handler": "game.delete",
+      "path": "/banners/:id",
+      "handler": "banner.delete",
       "config": {
         "policies": []
       }

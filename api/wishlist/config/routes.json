@@ -2,56 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/games",
-      "handler": "game.find",
+      "path": "/wishlists",
+      "handler": "wishlist.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/games/count",
-      "handler": "game.count",
+      "path": "/wishlists/count",
+      "handler": "wishlist.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/games/:id",
-      "handler": "game.findOne",
+      "path": "/wishlists/:id",
+      "handler": "wishlist.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/games",
-      "handler": "game.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/games/populate",
-      "handler": "game.populate",
+      "path": "/wishlists",
+      "handler": "wishlist.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/games/:id",
-      "handler": "game.update",
+      "path": "/wishlists/:id",
+      "handler": "wishlist.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/games/:id",
-      "handler": "game.delete",
+      "path": "/wishlists/:id",
+      "handler": "wishlist.delete",
       "config": {
         "policies": []
       }
