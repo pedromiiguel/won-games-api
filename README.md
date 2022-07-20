@@ -39,7 +39,7 @@ Tecnologias utilizazadas no projeto:
 $ git clone https://github.com/pedromiiguel/won-games-api.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd api
+$ cd won-games-api
 
 # Instale as dependências
 $ npm install ou yarn
